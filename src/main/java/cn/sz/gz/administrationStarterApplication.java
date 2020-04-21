@@ -7,7 +7,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
-//@EnableFeignClients({"cn.sz.gz.util"})
 @EnableFeignClients
 public class administrationStarterApplication {
 	
